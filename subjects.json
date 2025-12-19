@@ -1,0 +1,20 @@
+{
+  "subjects": [
+    {
+      "subject_id": "DSD",
+      "subject_name": "Digital System Design",
+      "course_code": "BECE102L",
+      "modules":["Boolean Algebra","Counters"]
+    },
+    {
+      "subject_id": "JAV",
+      "subject_name": "Programming in Java",
+      "course_code": "BCSE101L"
+    },
+    {
+      "subject_id": "OS",
+      "subject_name": "Operating Systems",
+      "course_code": "BCSE202L"
+    }
+  ]
+}

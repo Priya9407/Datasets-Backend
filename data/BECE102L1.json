@@ -1,0 +1,68 @@
+ {
+  "subjects": [
+    {
+      "subject_id": "DSD",
+      "subject_name": "Digital System Design",
+      "course_code": "BECE102L",
+      "questions": [
+        {
+          "question_id": "DSD_Q1",
+          "topic": "Boolean Algebra",
+          "question_type": "5M",
+          "difficulty": "medium",
+          "year":"2022",
+          "question_text": "a) Reduce the following Boolean expressions:\nWXY'Z + W'XZ + WXYZ\nb) Express the given function as in (a) in POS form.",
+          "image": null,
+          "model_answer": "The given Boolean expression is simplified using Boolean algebra laws such as absorption, consensus and distributive laws. Redundant terms are eliminated to obtain a minimal expression. The POS form is obtained by expressing the simplified function in terms of maxterms.",
+          "keywords": [
+            "Boolean algebra",
+            "simplification",
+            "POS form",
+            "consensus theorem",
+            "maxterms"
+          ],
+          "max_marks": 5
+        },
+
+        {
+          "question_id": "DSD_Q2",
+          "topic": "Karnaugh Map and CMOS Logic",
+          "question_type": "10M",
+          "difficulty": "medium",
+          "year":"2022",
+          "question_text": "F(A, B, C, D) = π(1,4,6,12,14)\n(i) Simplify the given Boolean function in SOP form using K-Map.\n(ii) Draw a CMOS logic circuit for this simplified expression. (Assume both true and complementary inputs are available.)",
+          "image": null,
+          "model_answer": "The Boolean function is simplified using a four-variable Karnaugh map by grouping adjacent zeros to obtain the minimal SOP expression. Using the simplified Boolean expression, a CMOS logic circuit is designed with appropriate pull-up and pull-down transistor networks.",
+          "keywords": [
+            "K-map",
+            "SOP",
+            "Boolean simplification",
+            "CMOS logic",
+            "pull-up network",
+            "pull-down network"
+          ],
+          "max_marks": 10
+        },
+
+        {
+          "question_id": "DSD_Q3",
+          "topic": "Combinational Circuits",
+          "question_type": "5M",
+          "difficulty": "hard",
+          "year":"2022",
+          "question_text": "Consider the combinational circuit shown. Determine the truth table for the output F as a function of the four inputs.",
+          "image": "C:\\Users\\Joshitha Ramesh\\Desktop\\datasets2.0\\backend\\images\\dsd_q3.png",
+          "model_answer": "The truth table is obtained by systematically evaluating the output of each logic gate for all possible combinations of the four inputs. The final output F is tabulated for every input combination.",
+          "keywords": [
+            "truth table",
+            "combinational circuit",
+            "logic gates",
+            "Boolean output",
+            "input combinations"
+          ],
+          "max_marks": 5
+        }
+      ]
+    }
+  ]
+}

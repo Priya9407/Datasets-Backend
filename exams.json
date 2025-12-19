@@ -1,0 +1,7 @@
+{
+  "exams": [
+    { "exam_id": "CAT-1", "exam_name": "CAT 1" },
+    { "exam_id": "CAT-2", "exam_name": "CAT 2" },
+    { "exam_id": "FAT", "exam_name": "Final Assessment Test" }
+  ]
+}
