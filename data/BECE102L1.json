@@ -1,4 +1,4 @@
- {
+{
   "subjects": [
     {
       "subject_id": "DSD",
@@ -10,7 +10,7 @@
           "topic": "Boolean Algebra",
           "question_type": "5M",
           "difficulty": "medium",
-          "year":"2022",
+          "year": "2022",
           "question_text": "a) Reduce the following Boolean expressions:\nWXY'Z + W'XZ + WXYZ\nb) Express the given function as in (a) in POS form.",
           "image": null,
           "model_answer": "The given Boolean expression is simplified using Boolean algebra laws such as absorption, consensus and distributive laws. Redundant terms are eliminated to obtain a minimal expression. The POS form is obtained by expressing the simplified function in terms of maxterms.",
@@ -23,13 +23,12 @@
           ],
           "max_marks": 5
         },
-
         {
           "question_id": "DSD_Q2",
           "topic": "Karnaugh Map and CMOS Logic",
           "question_type": "10M",
           "difficulty": "medium",
-          "year":"2022",
+          "year": "2022",
           "question_text": "F(A, B, C, D) = π(1,4,6,12,14)\n(i) Simplify the given Boolean function in SOP form using K-Map.\n(ii) Draw a CMOS logic circuit for this simplified expression. (Assume both true and complementary inputs are available.)",
           "image": null,
           "model_answer": "The Boolean function is simplified using a four-variable Karnaugh map by grouping adjacent zeros to obtain the minimal SOP expression. Using the simplified Boolean expression, a CMOS logic circuit is designed with appropriate pull-up and pull-down transistor networks.",
@@ -43,13 +42,12 @@
           ],
           "max_marks": 10
         },
-
         {
           "question_id": "DSD_Q3",
           "topic": "Combinational Circuits",
           "question_type": "5M",
           "difficulty": "hard",
-          "year":"2022",
+          "year": "2022",
           "question_text": "Consider the combinational circuit shown. Determine the truth table for the output F as a function of the four inputs.",
           "image": "C:\\Users\\Joshitha Ramesh\\Desktop\\datasets2.0\\backend\\images\\dsd_q3.png",
           "model_answer": "The truth table is obtained by systematically evaluating the output of each logic gate for all possible combinations of the four inputs. The final output F is tabulated for every input combination.",
@@ -61,6 +59,128 @@
             "input combinations"
           ],
           "max_marks": 5
+        },
+        {
+          "question_id": "DSD_Q4",
+          "topic": "Logic Gates",
+          "question_type": "5M",
+          "difficulty": "easy",
+          "year": "2021",
+          "question_text": "Implement the XOR function using only NAND gates. Draw the logic diagram and verify its operation using a truth table.",
+          "image": null,
+          "model_answer": "The XOR function is implemented using only NAND gates by combining multiple NAND gate configurations. The correctness of the implementation is verified using the XOR truth table.",
+          "keywords": [
+            "XOR",
+            "NAND gates",
+            "logic implementation",
+            "truth table"
+          ],
+          "max_marks": 5
+        },
+        {
+          "question_id": "DSD_Q5",
+          "topic": "Adders and Subtractors",
+          "question_type": "10M",
+          "difficulty": "medium",
+          "year": "2021",
+          "question_text": "a) Design a full adder using two half adders and an OR gate.\nb) Derive the Boolean expressions for sum and carry.",
+          "image": null,
+          "model_answer": "A full adder is designed by cascading two half adders and an OR gate. Boolean expressions for sum and carry are derived using input-output relationships.",
+          "keywords": [
+            "full adder",
+            "half adder",
+            "sum",
+            "carry",
+            "Boolean expressions"
+          ],
+          "max_marks": 10
+        },
+        {
+          "question_id": "DSD_Q6",
+          "topic": "Multiplexers and Demultiplexers",
+          "question_type": "5M",
+          "difficulty": "medium",
+          "year": "2022",
+          "question_text": "Explain the working of a 4:1 multiplexer. Implement a Boolean function using a 4:1 MUX.",
+          "image": null,
+          "model_answer": "A 4:1 multiplexer selects one of four inputs based on select lines. The given Boolean function is implemented by properly assigning inputs to the multiplexer.",
+          "keywords": [
+            "multiplexer",
+            "4:1 MUX",
+            "Boolean function",
+            "select lines"
+          ],
+          "max_marks": 5
+        },
+        {
+          "question_id": "DSD_Q7",
+          "topic": "Flip-Flops",
+          "question_type": "5M",
+          "difficulty": "medium",
+          "year": "2021",
+          "question_text": "Explain the working of a JK flip-flop with the help of its truth table and characteristic equation.",
+          "image": null,
+          "model_answer": "The JK flip-flop operation is explained using its truth table and characteristic equation. It eliminates the invalid state present in SR flip-flop.",
+          "keywords": [
+            "JK flip-flop",
+            "truth table",
+            "characteristic equation",
+            "sequential circuits"
+          ],
+          "max_marks": 5
+        },
+        {
+          "question_id": "DSD_Q8",
+          "topic": "Counters",
+          "question_type": "10M",
+          "difficulty": "hard",
+          "year": "2022",
+          "question_text": "Design a synchronous MOD-6 counter using JK flip-flops. Draw the state diagram and excitation table.",
+          "image": null,
+          "model_answer": "A synchronous MOD-6 counter is designed using JK flip-flops. The state diagram and excitation table are used to derive the required flip-flop inputs.",
+          "keywords": [
+            "MOD counter",
+            "synchronous counter",
+            "JK flip-flop",
+            "state diagram",
+            "excitation table"
+          ],
+          "max_marks": 10
+        },
+        {
+          "question_id": "DSD_Q9",
+          "topic": "Registers",
+          "question_type": "5M",
+          "difficulty": "easy",
+          "year": "2021",
+          "question_text": "Explain the operation of a 4-bit shift register with a neat block diagram.",
+          "image": null,
+          "model_answer": "A 4-bit shift register stores and shifts binary data using flip-flops. The block diagram illustrates serial data movement with clock pulses.",
+          "keywords": [
+            "shift register",
+            "flip-flops",
+            "serial data",
+            "clock"
+          ],
+          "max_marks": 5
+        },
+        {
+          "question_id": "DSD_Q10",
+          "topic": "Finite State Machines",
+          "question_type": "10M",
+          "difficulty": "hard",
+          "year": "2022",
+          "question_text": "Design a Moore state machine to detect the sequence 1011. Draw the state diagram and derive the state table.",
+          "image": null,
+          "model_answer": "A Moore FSM is designed to detect the sequence 1011. The state diagram represents state transitions and the state table summarizes output behavior.",
+          "keywords": [
+            "FSM",
+            "Moore machine",
+            "sequence detector",
+            "state diagram",
+            "state table"
+          ],
+          "max_marks": 10
         }
       ]
     }
